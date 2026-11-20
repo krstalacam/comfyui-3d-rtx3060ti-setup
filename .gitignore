@@ -1,0 +1,19 @@
+# Ignore large model weights, 3D outputs, and portable runtimes
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.glb
+*.gltf
+*.obj
+*.fbx
+*.7z
+*.zip
+python_embeded/
+ComfyUI/
+models/
+output/
+temp/
+__pycache__/
+*.log
